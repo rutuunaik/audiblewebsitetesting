@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Ruturaj Pandit Naik/IdeaProjects/FinalProject/src/test/java/org/example/AppTest.java">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="SigninButton"/>
+                    <include name="pressLogin"/>
+                    <include name="InvalidCredentials"/>
+                    <include name="clearDetails"/>
+                    <include name="ValidCredentials"/>
+                    <include name="Browse"/>
+                    <include name="selectItem"/>
+                    <include name="clicktobuy"/>
+                    <include name="PlacingOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
